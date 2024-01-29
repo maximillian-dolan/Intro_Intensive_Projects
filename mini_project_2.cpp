@@ -1,6 +1,6 @@
 // This code uses various numerical integral methods to show that
 // the integral of a Gaussian curve is roughly equal to the square
-// root of pi.
+// root of pi
 
 // Include Headers
 #include <iostream>
