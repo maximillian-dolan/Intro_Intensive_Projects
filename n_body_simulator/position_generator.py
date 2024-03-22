@@ -57,7 +57,7 @@ class Orbital:
         return acceleration
 
  
-def position_update(orbitals, method = 'verlet', timestep = 3600, timelength = 3, save = False, filename = '/Users/maxdolan/Documents/Jupyter_lab_stuff/tests/assessment-and-data_2/data_test.csv', keep_original = True):
+def position_update(orbitals, method = 'verlet', timestep = 3600, timelength = 3, save = False, filename = './data.csv', keep_original = True):
     '''
     This function calculates the 2-dimensional positions of each body within the system.
 
