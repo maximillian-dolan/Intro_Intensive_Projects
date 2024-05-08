@@ -74,7 +74,7 @@ def position_update(orbitals, method = 'verlet', timestep = 3600, timelength = 3
     save : BOOL, optional
         Whether or not the data is saved in a CSV file. The default is False.
     filename : STR, optional
-        The filename if saving in a CSV file. The default is '/Users/maxdolan/Documents/Jupyter_lab_stuff/tests/assessment-and-data_2/data_test.csv'.
+        The filename if saving in a CSV file. The default is './data_test.csv'.
     keep_original : BOOl, optional
         Whether or not to return the orbitals at the end as having their original position and velocity values. The default is True
 
